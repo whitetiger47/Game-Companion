@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="left|bottom"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/myProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My profile"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="right|bottom"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chat"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        app:icon="@drawable/chat"
+        app:iconGravity="textStart"
+        app:iconSize="40dp" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:text="Browse Games:"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/cs"
+        android:layout_width="118dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/cs" />
+
+    <ImageButton
+        android:id="@+id/valorant"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/valorant" />
+
+    <ImageButton
+        android:id="@+id/dota2"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/dota2" />
+
+</FrameLayout>

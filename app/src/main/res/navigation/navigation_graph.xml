@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/myWalletFragment">
+
+    <fragment
+        android:id="@+id/myWalletFragment"
+        android:name="com.example.gamecompanion.MyWalletFragment"
+        android:label="fragment_my_wallet"
+        tools:layout="@layout/fragment_my_wallet">
+        <action
+            android:id="@+id/action_myWalletFragment_to_addPaymentFragment"
+            app:destination="@id/addPaymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPaymentFragment"
+        android:name="com.example.gamecompanion.AddPaymentFragment"
+        android:label="fragment_add_payment"
+        tools:layout="@layout/fragment_add_payment">
+        <action
+            android:id="@+id/action_addPaymentFragment_to_myWalletFragment"
+            app:destination="@id/myWalletFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304619400318",
+    "project_id": "gamecompanion-ef867",
+    "storage_bucket": "gamecompanion-ef867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304619400318:android:e336cc25847d2ff52f3c2f",
+        "android_client_info": {
+          "package_name": "com.example.gamecompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304619400318-fbusqedjcjvgcvben0o864g0n77rpkmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwwQl8qODE62Acxg8ZDJOh-nb0SdszLZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304619400318-fbusqedjcjvgcvben0o864g0n77rpkmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

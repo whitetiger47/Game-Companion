@@ -61,3 +61,7 @@ The project follows a standard Android application structure.
     -   `drawable/`: Vector drawables, images, and custom backgrounds.
     -   `navigation/`: The navigation graph (`navigation_graph.xml`) for fragment navigation.
     -   `values/`: Resource files for strings, colors, and themes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/whitetiger47/Game-Companion/blob/master/LICENSE) file for details.
+

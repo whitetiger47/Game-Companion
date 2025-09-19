@@ -1,5 +1,4 @@
 # Game Companion
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/whitetiger47/Game-Companion)
 
 Game Companion is an Android application designed to serve as a versatile tool for gamers. It lets you select a game you want to play and searches for nearby players to queue with.
 
